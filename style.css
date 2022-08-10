@@ -136,6 +136,9 @@ a{
 .nav-item a:hover{
  color: var(--white) !important;
 }
+#nav-item2 a:hover{
+  color: var(--btn_color) !important;
+ }
 .container{
   max-width: 1055px !important;
 }
@@ -184,6 +187,18 @@ a{
 }
 .nav_btn:hover{
   background-color: var(--btn_color);
+  color: var(--white);
+  border: none;
+}
+.nav_btn2{
+  background-color: var(--btn_color);
+  border-radius: 2px;
+  color: var(--white);
+  border: none;
+  padding: 8px 20px;
+}
+.nav_btn2:hover{
+  background-color: var(--two_btn_color);
   color: var(--white);
   border: none;
 }
@@ -273,4 +288,38 @@ a{
   .container3{
     padding: 0px 30px;
   }
+}
+
+.container4{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.padding-right{
+  padding-right: 10px;
+}
+.contact-text{
+  border: dashed 2px var(--line);
+  border-radius: 2px;
+  padding: 30px 0px 30px 30px;
+}
+.contact-h2{
+  font-family: 'Roboto', sans-serif;
+  color: var(--h2);
+  font-size: 22px;
+  font-weight: 300;
+}
+/* .center{
+  margin: 0 auto;
+} */
+input{
+  border-radius: 1px !important;
+}
+textarea{
+  border-radius: 1px !important;
+  height: 200px !important;
+}
+input::placeholder {
+  color: var(--p) !important;
+  opacity: 1 !important;
 }
