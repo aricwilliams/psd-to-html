@@ -11,6 +11,7 @@
   --white: #ffffff;
   --h2: #0F5F5C;
   --p: #83A7A5;
+  --about-buy-btn: #49732F;
   --hero: #2D6E70;
   --line: #D8D8D8;
   --h2_font: font-family: 'Roboto', sans-serif;
@@ -50,6 +51,7 @@ img{
 .mask{
   height: 654px;
 }
+
 .col{
   display: flex;
   flex-direction: column;
@@ -64,11 +66,12 @@ h2{
   font-family: 'Roboto', sans-serif;
   color: var(--h2);
   font-size: 32px;
+  font-weight: 300;
 }
 p{
   font-family: 'Roboto', sans-serif;
   color: var(--p);
-  font-size: 14px;
+  font-size: 15px;
 }
 .p_header{
   font-size: 16px;
@@ -77,6 +80,7 @@ p{
   font-size: 38px;
   font-family: 'Roboto', sans-serif;
 }
+
 .sub_h2{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -106,8 +110,14 @@ button,.button {
   background-color: var(--btn_color) !important;
   border: none !important;
   border-radius: 2px !important;
-  padding: 10px 40px !important;
+  padding: 20px 28px !important;
   color: var(--white);
+  font-weight: 100;
+  font-size: 13px;
+}
+.about-buy{
+  background-color: var(--about-buy-btn) !important;
+
 }
 a{
   text-decoration: none !important;
@@ -120,6 +130,8 @@ a{
  }
  .buy-btn{
   margin-top: 80px;
+  padding: 15px 25px !important;
+  font-weight: 100;
  }
 .nav-item a:hover{
  color: var(--white) !important;
@@ -228,5 +240,37 @@ a{
   }
   footer img{
     text-align: center !important;
+  }
+}
+
+
+.responsive-sec{
+  padding-bottom: 90px;
+}
+.about_h1{
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+.hero_btn{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.container2{
+  width: 90%;
+  margin: 0 auto;
+}
+.margin-top{
+  margin-top: 120px;
+}
+.mask2{
+  height: 600px !important;
+}
+.container3{
+  padding: 0px 200px;
+}
+@media (max-width: 551px) {
+  .container3{
+    padding: 0px 30px;
   }
 }
