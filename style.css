@@ -105,6 +105,7 @@ p{
 .phone{
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
+  color: var(--line) !important;
 }
 button,.button {
   background-color: var(--btn_color) !important;
@@ -176,7 +177,24 @@ a{
 
 .navbar{
   margin-bottom: -100px;
-
+}
+.sidebar{
+  border-right: 1px var(--p) solid;
+  line-height: 20px;
+  margin-right: 23px;
+}
+.sidebar2{
+  border-right: 1px var(--line) solid;
+  line-height: 20px;
+  margin-right: 23px;
+}
+.bottombar{
+  border-bottom: 1px var(--p) solid;
+  padding-bottom: 32px;
+}
+.bottombar2{
+  border-bottom: 1px var(--line) solid;
+  padding-bottom: 32px;
 }
 .nav_btn{
   background-color: var(--two_btn_color);
@@ -270,6 +288,8 @@ a{
 .hero_btn{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  padding: 18px 64px !important;
+  text-transform: uppercase;
 }
 .container2{
   width: 90%;
